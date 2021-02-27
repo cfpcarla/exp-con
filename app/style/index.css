@@ -22,14 +22,19 @@
 	margin: auto;
 	font-size: 18px;
 	line-height: 1.9;
+	text-align: center;
+	font: normal normal normal 32px/44px Helvetica Neue;
+	letter-spacing: 3.2px;
+	margin-bottom: 10px;
 }
 .navbar-light .navbar-brand {
 	color: #fff;
-	font-size: 60px;
 	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
 	font-family: Helvetica;
+	font: normal normal normal 48px/57px Helvetica Neue;
+	letter-spacing: 4.8px;
+	opacity: 1;
+	margin-bottom: 10px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
 	color: #fff;
@@ -62,4 +67,35 @@
 text-align: center;
 font: normal normal normal 32px/44px Helvetica Neue;
 letter-spacing: 3.2px;
+margin-bottom: 350px;
 }
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+   border-radius: 79px;
+   opacity: 1;
+   top: 669px;
+   left: 818px;
+   width: 284px;
+   height: 79px;
+   margin-bottom: 300px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
