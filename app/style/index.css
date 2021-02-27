@@ -87,7 +87,7 @@ margin-bottom: 350px;
    width: 284px;
    height: 79px;
    margin-bottom: 300px;
-   margin-left: 538px;
+   margin-left: 720px;
    font: normal normal bold 23px/28px Helvetica Neue;
  }
 
@@ -96,3 +96,10 @@ margin-bottom: 350px;
    color: #fff;
    text-decoration: none;
  }
+
+ @media screen and (max-width:1183px) {
+	.btn-grad {
+		 margin-left:276px;
+
+	}
+}
