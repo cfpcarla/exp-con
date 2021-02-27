@@ -1,8 +1,8 @@
-style* { margin: 0 auto; font-family: sans-serif; }
+/* style* { margin: 0 auto; font-family: sans-serif; }
 
-body { margin: 0 auto; }
+body { margin: 0 auto; } */
 
-header {
+/* header {
 	height: 70px;
 	background-color: white;
 	border-bottom: 1px solid #494949;
@@ -19,8 +19,8 @@ header > h1 {
 header > .top {
 	position: absolute;
 	left: 20px;
-}
-i.menu_icon {
+} */
+/* i.menu_icon {
 	color:white;
 	font-size: 40px;
 	padding-top: 5px;
@@ -43,25 +43,10 @@ nav.menu > a {
     margin: 15px 0 0px 20px;
     color: #494949;
     text-transform: uppercase;
-}
-main {
+} */
+/* main {
 	width: 100%;
 	padding: 30px;
 	box-sizing: border-box;
-}
+} */
 
-.menu_show {
-	left: 0!important;
-}
-
-@media screen and (max-width: 425px) {
-	header h1 {
-		font-size: 16px;
-	}
-}
-@media screen and (max-width: 360px) {
-	nav.menu {
-		width: 100%;
-		left: -100%; 
-	}
-}

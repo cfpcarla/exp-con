@@ -1,3 +1,4 @@
+/* INDEX STYLE */
 .carousel-item {
 	height: 100vh;
 	min-height: 300px;
@@ -65,8 +66,6 @@ letter-spacing: 3.2px;
 margin-bottom: 350px;
 }
 
-
-
 .btn-grad {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)}
 .btn-grad {
    margin: 10px;
@@ -85,7 +84,7 @@ margin-bottom: 350px;
    left: 818px;
    width: 284px;
    height: 79px;
-   margin-bottom: 300px;
+   margin-bottom: 100px;
    margin-left: 720px;
    font: normal normal bold 23px/28px Helvetica Neue;
  }
@@ -95,6 +94,102 @@ margin-bottom: 350px;
    color: #fff;
    text-decoration: none;
  }
+
+ i.menu_icon {
+	color:white;
+	font-size: 40px;
+	padding-top: 5px;
+	transition: .2s ease;
+}
+header > .top a.menu_icon:hover i {
+	color: #fff;
+}
+nav.menu {
+    width: 300px;
+    padding-top: 8rem;
+	background-color: black;
+	position: absolute;
+	left: -300px;
+	transition: .3s all;
+}
+nav.menu > a {
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+ .menu_show {
+	left: 0!important;
+}
+
+
+ /* What is it page STYLE*/
+ .btn-white {
+	margin: 10px;
+	padding: 25px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: #D34848;            
+	border-radius: 10px;
+	display: block;
+	background: white;
+	border-radius: 79px;
+	opacity: 1;
+	top: 669px;
+	left: 818px;
+	width: 284px;
+	height: 79px;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	font: normal normal bold 23px/28px Helvetica Neue;
+  }
+
+.sound1-image {
+	width: 100px;
+}
+.root-what-is-it {
+	background-color: #D34848;
+}
+
+.text {
+	width: 75%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	text-align: left;
+	font: normal normal normal 32px/44px Helvetica Neue;
+	letter-spacing: 3.2px;
+	margin-bottom: 15px;
+	margin-left:10px;
+}
+
+p.p-what-is-it {
+	text-align: left;
+	font: normal normal normal 32px/44px Helvetica Neue;
+	letter-spacing: 3.2px;
+	margin-bottom: 50px;
+	margin-left:0px;
+}
+
+
+
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 425px) {
+	header h1 {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 360px) {
+	nav.menu {
+		width: 100%;
+		left: -100%; 
+	} */
+/* }
 
  @media screen and (max-width:1183px) {
 	.btn-grad {
