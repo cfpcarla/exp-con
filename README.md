@@ -1,6 +1,6 @@
 
 # EXP|CON
- is a website for interactive concert experience.
+EXP|CON is a website for interactive concert experience.
 
 
 ![Initial page](https://github.com/cfpcarla/exp-con/blob/main/app/images/home-page.png)
