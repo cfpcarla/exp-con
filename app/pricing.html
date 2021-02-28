@@ -9,29 +9,33 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/pricing.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
 </head>
 <body>
     <header>
         <title class="navbar-brand">EXP|CON</title>
         <title class="navbar-brand">PRICING PAGE</title>
-        <div class="top">
-            <a href="#" class="menu_icon"><i class="material-icons">dehaze</i></a>
-            </div>
         </header>
-        <nav class="menu">
-            <a href="index.html" class="item_menu">HOME</a>
-            <a href=whatIsIt.html class="item_menu">WHAT IS IT</a>
-            <a href=# class="item_menu">PERKS</a>
-            <a href="pricing.html" class="item_menu">PRICING</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <title class="navbar-brand">EXP|CON</title>
+              <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="whatIsIt.html">WHAT IS IT</a></li>
+                  <li><a href="#">PERKS</a></li>
+                  <li><a href="pricing.html">PRICING</a></li>
+                </ul>
+              </div>
+              <div class="menu-bg" id="menu-bg"></div>
+                
+            </nav>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="../app/script/src/script2.js">
+        </script>
     </body>
-    <script>$(document).ready(function() {
-        $("body").on('click', '.top', function() {
-            $("nav.menu").toggleClass("menu_show");
-        });
-    });
-</script>
 </html>

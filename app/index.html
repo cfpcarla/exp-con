@@ -7,27 +7,28 @@
   <link rel="icon" type="image/png" sizes="16x16" href="">
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/index.css">
-	<link rel="html" href="../app/pricing.html">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-		<div class="container">
-      <div class="top">
-        <a href="javascript:void(0)"><i class="material-icons menu_icon">dehaze</i></a>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <title class="navbar-brand">EXP|CON</title>
+      <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="whatIsIt.html">WHAT IS IT</a></li>
+          <li><a href="#">PERKS</a></li>
+          <li><a href="pricing.html">PRICING</a></li>
+        </ul>
       </div>
-			<title class="navbar-brand">EXP|CON</title>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-				<nav class="menu">
-					<a href="javascript:void(0)" class="item_menu">HOME</a>
-					<a href="whatIsIt.html" class="item_menu">WHAT IS IT</a>
-					<a href="javascript:void(0)" class="item_menu">PERKS</a>
-					<a href="pricing.html" class="item_menu">PRICING</a>
-				</nav>
-			</div>
-		</div>
+      <div class="menu-bg" id="menu-bg"></div>
+		
 	</nav>
 	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
 		<div class="carousel" data-interval="10000"></div>
@@ -71,15 +72,9 @@
 	</script> 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
 	</script>
-	 <script type="text/javascript" src="js/script.js">
-	</script>
+   <!-- <script type="text/javascript" src="js/script.js">
+  </script> -->
+  <script type="text/javascript" src="../app/script/src/script2.js">
+  </script>
 </body>
-
-<script>
-$(document).ready(function() {
-    $("body").on('click', '.top', function() {
-        $("nav.menu").toggleClass("menu_show");
-    });
-});
-</script>
 </html>
